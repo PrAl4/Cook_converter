@@ -4,5 +4,7 @@ require_relative "Cook_converter/version"
 
 module CookConverter
   class Error < StandardError; end
-  # Your code goes here...
+  def foo
+    print 'Hello world'
+  end
 end
